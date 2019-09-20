@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sergey/Рабочий стол/work/Vector3D.cpp
+Vector3D.h
+/home/sergey/Рабочий стол/work/Vector3D.h
+iostream
+-
+cmath
+-
+
+/home/sergey/Рабочий стол/work/Vector3D.h
+iostream
+-
+cmath
+-
+
+/home/sergey/Рабочий стол/work/main.cpp
+iostream
+-
+Vector3D.h
+/home/sergey/Рабочий стол/work/Vector3D.h
+iomanip
+-
+
