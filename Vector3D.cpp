@@ -48,7 +48,7 @@ Vector3D Vector3D::plus(const Vector3D& vector) {
         return sqrt(this->x*this->x+this->y*this->y+this->z*this->z);
     }
      
-    double Vector3D::getAngle(const Vector3D& vector) {
+    double Vector3D::getAngle( Vector3D& vector) {
         if ((vector.getLength()==0) || (this->getLength())==0) {
             return 0;
         }
