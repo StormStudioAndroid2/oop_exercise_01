@@ -4,8 +4,7 @@
 #include <cmath>
 
 
-
-    Vector3D::Vector3D(double x,double y,double z)
+Vector3D::Vector3D(double x,double y,double z)
 : x(x), y(y),z(z) {}
       Vector3D::Vector3D()
 : x(0), y(0),z(z) {}

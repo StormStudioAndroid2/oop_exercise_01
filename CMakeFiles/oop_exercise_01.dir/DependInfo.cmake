@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sergey/Рабочий стол/work/Vector3D.cpp" "/home/sergey/Рабочий стол/work/CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o"
-  "/home/sergey/Рабочий стол/work/main.cpp" "/home/sergey/Рабочий стол/work/CMakeFiles/oop_exercise_01.dir/main.cpp.o"
+  "/home/sergey/Рабочий стол/work/oop_exercise_1/Vector3D.cpp" "/home/sergey/Рабочий стол/work/oop_exercise_1/CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o"
+  "/home/sergey/Рабочий стол/work/oop_exercise_1/main.cpp" "/home/sergey/Рабочий стол/work/oop_exercise_1/CMakeFiles/oop_exercise_01.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

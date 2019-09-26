@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/sergey/Рабочий стол/work"
+CMAKE_SOURCE_DIR = "/home/sergey/Рабочий стол/work/oop_exercise_1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/sergey/Рабочий стол/work"
+CMAKE_BINARY_DIR = "/home/sergey/Рабочий стол/work/oop_exercise_1"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oop_exercise_01.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/oop_exercise_01.dir/flags.make
 
 CMakeFiles/oop_exercise_01.dir/main.cpp.o: CMakeFiles/oop_exercise_01.dir/flags.make
 CMakeFiles/oop_exercise_01.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sergey/Рабочий стол/work/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop_exercise_01.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_01.dir/main.cpp.o -c "/home/sergey/Рабочий стол/work/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sergey/Рабочий стол/work/oop_exercise_1/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop_exercise_01.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_01.dir/main.cpp.o -c "/home/sergey/Рабочий стол/work/oop_exercise_1/main.cpp"
 
 CMakeFiles/oop_exercise_01.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oop_exercise_01.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sergey/Рабочий стол/work/main.cpp" > CMakeFiles/oop_exercise_01.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sergey/Рабочий стол/work/oop_exercise_1/main.cpp" > CMakeFiles/oop_exercise_01.dir/main.cpp.i
 
 CMakeFiles/oop_exercise_01.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oop_exercise_01.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sergey/Рабочий стол/work/main.cpp" -o CMakeFiles/oop_exercise_01.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sergey/Рабочий стол/work/oop_exercise_1/main.cpp" -o CMakeFiles/oop_exercise_01.dir/main.cpp.s
 
 CMakeFiles/oop_exercise_01.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/oop_exercise_01.dir/main.cpp.o.provides.build: CMakeFiles/oop_exercis
 
 CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o: CMakeFiles/oop_exercise_01.dir/flags.make
 CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o: Vector3D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sergey/Рабочий стол/work/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o -c "/home/sergey/Рабочий стол/work/Vector3D.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/sergey/Рабочий стол/work/oop_exercise_1/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o -c "/home/sergey/Рабочий стол/work/oop_exercise_1/Vector3D.cpp"
 
 CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sergey/Рабочий стол/work/Vector3D.cpp" > CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sergey/Рабочий стол/work/oop_exercise_1/Vector3D.cpp" > CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.i
 
 CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sergey/Рабочий стол/work/Vector3D.cpp" -o CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sergey/Рабочий стол/work/oop_exercise_1/Vector3D.cpp" -o CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.s
 
 CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o.requires:
 
@@ -117,7 +117,7 @@ oop_exercise_01: CMakeFiles/oop_exercise_01.dir/main.cpp.o
 oop_exercise_01: CMakeFiles/oop_exercise_01.dir/Vector3D.cpp.o
 oop_exercise_01: CMakeFiles/oop_exercise_01.dir/build.make
 oop_exercise_01: CMakeFiles/oop_exercise_01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/sergey/Рабочий стол/work/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable oop_exercise_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/sergey/Рабочий стол/work/oop_exercise_1/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable oop_exercise_01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oop_exercise_01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/oop_exercise_01.dir/clean:
 .PHONY : CMakeFiles/oop_exercise_01.dir/clean
 
 CMakeFiles/oop_exercise_01.dir/depend:
-	cd "/home/sergey/Рабочий стол/work" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/sergey/Рабочий стол/work" "/home/sergey/Рабочий стол/work" "/home/sergey/Рабочий стол/work" "/home/sergey/Рабочий стол/work" "/home/sergey/Рабочий стол/work/CMakeFiles/oop_exercise_01.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/sergey/Рабочий стол/work/oop_exercise_1" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/sergey/Рабочий стол/work/oop_exercise_1" "/home/sergey/Рабочий стол/work/oop_exercise_1" "/home/sergey/Рабочий стол/work/oop_exercise_1" "/home/sergey/Рабочий стол/work/oop_exercise_1" "/home/sergey/Рабочий стол/work/oop_exercise_1/CMakeFiles/oop_exercise_01.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/oop_exercise_01.dir/depend
 

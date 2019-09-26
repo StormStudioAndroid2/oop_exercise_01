@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/sergey/Рабочий стол/work/Vector3D.cpp
+/home/sergey/Рабочий стол/work/oop_exercise_1/Vector3D.cpp
 Vector3D.h
-/home/sergey/Рабочий стол/work/Vector3D.h
+/home/sergey/Рабочий стол/work/oop_exercise_1/Vector3D.h
 iostream
 -
 cmath
 -
 
-/home/sergey/Рабочий стол/work/Vector3D.h
+/home/sergey/Рабочий стол/work/oop_exercise_1/Vector3D.h
 iostream
 -
 cmath
 -
 
-/home/sergey/Рабочий стол/work/main.cpp
+/home/sergey/Рабочий стол/work/oop_exercise_1/main.cpp
 iostream
 -
 Vector3D.h
-/home/sergey/Рабочий стол/work/Vector3D.h
+/home/sergey/Рабочий стол/work/oop_exercise_1/Vector3D.h
 iomanip
 -
 
