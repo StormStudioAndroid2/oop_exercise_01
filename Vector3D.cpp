@@ -7,7 +7,7 @@
 Vector3D::Vector3D(double x,double y,double z)
 : x(x), y(y),z(z) {}
       Vector3D::Vector3D()
-: x(0), y(0),z(z) {}
+: x(0), y(0),z(0) {}
 Vector3D Vector3D::plus(const Vector3D& vector) {
         Vector3D result;
         result.x = vector.x+this->x;
@@ -52,9 +52,8 @@ Vector3D Vector3D::plus(const Vector3D& vector) {
             return 0;
         }
             const double halfC = 180/M_PI;
-
            double cos1 = (this->scalarPow(vector)/(this->getLength()*vector.getLength())) ;
-           if (cos1<-1) {
+           if (cos1 < -1) {
                return 180;
            }
            if (cos1>1) {

@@ -19,9 +19,7 @@ private:
     double scalarPow(const Vector3D& vector);
     bool isEqual(const Vector3D& vector);
     double getLength();
-     
     double getAngle( Vector3D& vector);
-
     double getX();
     double getY();
     double getZ();
