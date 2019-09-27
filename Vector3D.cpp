@@ -23,7 +23,7 @@ Vector3D Vector3D::plus(const Vector3D& vector) {
         result.z = this->z-vector.z;
         return result;
     }
-     Vector3D Vector3D::vectorPow(const Vector3D& vector) {
+     Vector3D Vector3D::crossProduct(const Vector3D& vector) {
         Vector3D result;
         result.x = this->y*vector.z-this->z*vector.y;
         result.y = this->z*vector.x-this->x*vector.z;
@@ -31,13 +31,13 @@ Vector3D Vector3D::plus(const Vector3D& vector) {
 
         return result;
     }
-    void Vector3D::lambdaPow(double lambda) {
+    void Vector3D::lambdaProduct(double lambda) {
         this->x*=lambda;
         this->y*=lambda;
         this->z*=lambda;
 
     }
-    double Vector3D::scalarPow(const Vector3D& vector) {
+    double Vector3D::scalarProduct(const Vector3D& vector) {
         return this->x*vector.x+this->y*vector.y+this->z*vector.z;
     }
     bool Vector3D::isEqual(const Vector3D& vector) {
@@ -52,7 +52,7 @@ Vector3D Vector3D::plus(const Vector3D& vector) {
             return 0;
         }
             const double halfC = 180/M_PI;
-           double cos1 = (this->scalarPow(vector)/(this->getLength()*vector.getLength())) ;
+           double cos1 = (this->scalarProduct(vector)/(this->getLength()*vector.getLength())) ;
            if (cos1 < -1) {
                return 180;
            }
